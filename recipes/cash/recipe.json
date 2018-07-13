@@ -49,5 +49,21 @@
         "#subsector"
       ]
     }
+  },
+    {
+    "name": "Key Figures: Sum/count items for a value column",
+    "description": "",
+    "type": "key figure",
+    "ingredients": {
+      "aggregateFunctions": [
+        "sum",
+        "count"
+      ],
+      "valueColumns": [
+        "#beneficiary",
+        "#reached"
+
+      ]
+    }
   }
 ]
