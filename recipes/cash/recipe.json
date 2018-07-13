@@ -1,0 +1,54 @@
+#https://raw.githubusercontent.com/ndongamadu/hxl-cash-recipe/master/hxl-recipe-cash.json
+[
+  {
+    "name": "Charts: Distinct count of values in value column by the aggregate column",
+    "description": "",
+    "type": "chart",
+    "ingredients": {
+      "aggregateFunctions": [
+        "sum"
+      ],
+      "aggregateColumns": [
+        "#region",
+        "#country",
+        "#adm1",
+        "#adm2",
+        "#adm3",
+        "#adm4",
+        "#adm5",
+        "#indicator+mechanism",
+        "#indicator+conditionality",
+        "#indicator+restriction"
+      ],
+      "valueColumns": [
+        "#beneficiary",
+        "#reached"
+      ]
+    }
+  },
+    {
+    "name": "Charts: Distinct count of values in value column by the aggregate column",
+    "description": "",
+    "type": "chart",
+    "ingredients": {
+      "aggregateFunctions": [
+        "distinct-count"
+      ],
+      "aggregateColumns": [
+        "#region",
+        "#country",
+        "#adm1",
+        "#adm2",
+        "#adm3",
+        "#adm4",
+        "#adm5"
+      ],
+      "valueColumns": [
+        "#org",
+        "#activity",
+        "#sector",
+        "#subsector"
+      ]
+    }
+  }
+]
