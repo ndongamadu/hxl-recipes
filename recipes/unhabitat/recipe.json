@@ -33,15 +33,11 @@
         "#country",
         "#adm1",
         "#adm2",
-        "#adm3",
-        "#adm4",
-        "#adm5"
+        "#meta+category",
+        "#indicator+name"
       ],
       "valueColumns": [
-        "#org",
-        "#activity",
-        "#sector",
-        "#subsector"
+        "#indicator+value"
       ]
     }
   }
