@@ -46,10 +46,7 @@
                 "sum"
               ],
               "aggregateColumns": [
-                "#country",
-                "#adm1",
-                "#adm2",
-                "#adm3"
+                "#adm1"
               ],
               "valueColumns": [
                 "#population+m / #population+m"
