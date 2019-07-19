@@ -38,8 +38,8 @@
             }
         },
         {
-            "name": "Total Male and Female per admin level",
-            "description": "",
+            "name": "Total Male and Female per adm1 level",
+            "description": "Male/Female by adm1",
             "type": "comparison-chart",
             "ingredients": {
               "aggregateFunctions": [
@@ -50,6 +50,54 @@
               ],
               "valueColumns": [
                 "#population+m / #population+f"
+              ]
+            }
+        },
+        {
+            "name": "Total Female and Male per adm1 level",
+            "description": "Female/Male by adm1",
+            "type": "comparison-chart",
+            "ingredients": {
+              "aggregateFunctions": [
+                "sum"
+              ],
+              "aggregateColumns": [
+                "#adm1"
+              ],
+              "valueColumns": [
+                "#population+f / #population+m"
+              ]
+            }
+        },
+        {
+            "name": "Total Male and Female per adm2 level",
+            "description": "Male/Female by adm2",
+            "type": "comparison-chart",
+            "ingredients": {
+              "aggregateFunctions": [
+                "sum"
+              ],
+              "aggregateColumns": [
+                "#adm2"
+              ],
+              "valueColumns": [
+                "#population+m / #population+f"
+              ]
+            }
+        },
+        {
+            "name": "Total Female and Male per adm2 level",
+            "description": "Female/Male by adm2",
+            "type": "comparison-chart",
+            "ingredients": {
+              "aggregateFunctions": [
+                "sum"
+              ],
+              "aggregateColumns": [
+                "#adm2"
+              ],
+              "valueColumns": [
+                "#population+f / #population+m"
               ]
             }
         },
